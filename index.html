@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fly Duel — Support</title>
+<style>
+  :root {
+    --bg:      #E9F2F0;
+    --surface: #F7FBFA;
+    --text:    #122E33;
+    --dim:     #4E6E73;
+    --rule:    #C4DBD7;
+    --accent:  #1C6E7E;
+    --good:    #2F7D32;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:      #0B1D23;
+      --surface: #11292F;
+      --text:    #E6F3F0;
+      --dim:     #8CACAE;
+      --rule:    #21454E;
+      --accent:  #6BCCC7;
+      --good:    #70C742;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:      #0B1D23;
+    --surface: #11292F;
+    --text:    #E6F3F0;
+    --dim:     #8CACAE;
+    --rule:    #21454E;
+    --accent:  #6BCCC7;
+    --good:    #70C742;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 660px; margin: 0 auto; padding: 56px 24px 90px; }
+
+  h1 {
+    font-family: ui-rounded, "SF Pro Rounded", "Arial Rounded MT Bold", system-ui, sans-serif;
+    font-size: clamp(32px, 7vw, 44px);
+    line-height: 1.08;
+    letter-spacing: -.02em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  h2 {
+    font-family: ui-rounded, "SF Pro Rounded", "Arial Rounded MT Bold", system-ui, sans-serif;
+    font-size: 20px;
+    line-height: 1.25;
+    margin: 44px 0 12px;
+    text-wrap: balance;
+  }
+  p, li { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+
+  .eyebrow {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11.5px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--dim);
+    margin: 0 0 14px;
+  }
+  .updated {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12.5px;
+    color: var(--dim);
+    margin-top: 10px;
+  }
+
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--good);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 28px 0;
+  }
+  .callout p { margin: 0; }
+  .callout strong { color: var(--good); }
+
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 44px 0; }
+
+  a { color: var(--accent); }
+  footer {
+    margin-top: 54px;
+    padding-top: 22px;
+    border-top: 1px solid var(--rule);
+    color: var(--dim);
+    font-size: 14.5px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Support</p>
+  <h1>Fly Duel</h1>
+  <p class="updated">Last updated 21 August 2026</p>
+
+  <div class="callout">
+    <p><strong>Questions, bugs and suggestions:</strong>
+    <a href="mailto:hiva.nasiri@gmail.com">hiva.nasiri@gmail.com</a>.
+    It is a one-person project, so replies may take a few days.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>The opponents are too fast.</h3>
+  <p>They are meant to be, eventually &mdash; but you can change it. On the
+  title screen tap <strong>Settings</strong> and lower the opponent speed. The
+  game ships at about 5% of a real bullfrog's speed, and can be dropped to 4%
+  or 3%. Scores scale to match, so the scoreboard stays fair.</p>
+
+  <h3>What is the 100% setting?</h3>
+  <p>A demonstration rather than a difficulty. It runs the animals at their
+  real measured speed, which is far below human reaction time &mdash; a
+  bullfrog takes a fly in under 0.07 seconds. You will lose. That is the point
+  of including it.</p>
+
+  <h3>Are the animal facts real?</h3>
+  <p>Yes. Every figure in the bestiary comes from published measurements, and
+  the behaviour of each opponent is built from them rather than decorated with
+  them.</p>
+
+  <h3>How do I change the language?</h3>
+  <p>Settings, from the title screen or the pause menu. English, Spanish,
+  Persian and Kurdish (Sorani) are available, and the change applies
+  immediately.</p>
+
+  <h3>I lost my scores.</h3>
+  <p>Scores live only on your device and are not backed up to any server, so
+  deleting the app deletes them. There is no way to recover them.</p>
+
+  <h2>Privacy</h2>
+  <p>Fly Duel collects no data at all. See the
+  <a href="privacy.html">privacy policy</a>.</p>
+
+  <p class="updated">Fly Duel is developed by Hiva Nasiri.</p>
+</div>
+</body>
+</html>
